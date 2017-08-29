@@ -12,6 +12,12 @@
     display: inline-block;
 }
 
+.flex {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
 .hero {
     background-image: url('../img/hero.jpg');
     height: 500px;
@@ -26,4 +32,11 @@
 
 .hero .white-text {
     font-size: 2em;
+}
+
+/* Featured section styles. */
+
+.thumbnail {
+    padding: 8px 12px;
+    background-color: #EDF1F4; /*light grey*/
 }
